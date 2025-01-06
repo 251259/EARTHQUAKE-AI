@@ -109,6 +109,4 @@ The Earthquake Tracker project aimed to build a model-driven app through Microso
 
 The project integrated multiple systems: Microsoft's Dataverse for the data management foundation, Power Apps for the dashboard interface, Power Automate for real-time data flows, and EARTHQUAKE-AI, a specialized microservice API gateway and LLM analysis engine. EARTHQUAKE-AI's use of nixpacks technology enables rapid setup of scientific development environments which could be further expanded to include Anaconda or OpenCV for instance.
 
-The project attempted to integrate multiple systems together: Microsoft's Dataverse as the foundation for data management, Power Apps for the dashboard app interface, Power Automate for real-time data flows, and EARTHQUAKE-AI, a specialized microservice acting an API gateway and LLM analysis. EARTHQUAKE-AI also uses nixpacks technology, enabling quickly setting up further scientific development environments such as Anaconda or OpenCV.
-
 EARTHQUAKE-AI can readily accomodate the aggregation of various atmospheric and weather phenomena, transmitting data downstream to utilize the Microsoft ecosystem through Power Apps and Power Automate.
