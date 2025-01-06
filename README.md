@@ -105,7 +105,7 @@ The source can be accessed from the code folder.
 
 ## SUMMARY
 
-The Earthquake Tracker project aimed to build a model-driven app through Microsoft Power Apps and the Microsoft ecoystem while utilizing the emergent human-like reasoning (Theory of Mind) capabilities of LLMs. Using earthquake data, the LLM demonstrate the ability to make qualitative inferences, such as identifying broader patterns in geographic trend clustering and capturing larger regions, tasks that would not be straightforward using conventional techniques.
+The Earthquake Tracker project aimed to build a model-driven app through Microsoft Power Apps and the Microsoft ecoystem while utilizing the emergent human-like reasoning (Theory of Mind) capabilities of LLMs. Using earthquake data, the LLM demonstrated the ability to make qualitative inferences, such as identifying broader patterns in geographic trend clustering and capturing larger regions, tasks that would not be straightforward using conventional techniques.
 
 The project integrated multiple systems: Microsoft's Dataverse for the data management foundation, Power Apps for the dashboard interface, Power Automate for real-time data flows, and EARTHQUAKE-AI, a specialized microservice API gateway and LLM analysis engine. EARTHQUAKE-AI's use of nixpacks technology enables rapid setup of scientific development environments which could be further expanded to include Anaconda or OpenCV for instance.
 
