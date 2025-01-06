@@ -98,7 +98,7 @@ The server tech stack includes Python, FastAPI, and Railway with nixpacks, an ab
 
 The key to integrating the LLM with the data is construct a prompt request that any data output should come back in the form of JSON, which is what we can use for downstream processing.
 
-The code can be accessed here: 
+The source can be accessed from the code folder.
 
 
 <br>
