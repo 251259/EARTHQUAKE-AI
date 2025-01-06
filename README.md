@@ -72,9 +72,6 @@ The Earthquake Tracker app can be published from various versions. An email invi
 
 The Microsoft Power Automate platform is the engine behind automating workflows across the Microsoft ecosystem. The project leveraged Power Automate to gather real time earthquake data from a custom REST API server.
 
-<br>
-
-<img src="images/PowerAutomate.png" width="75%">
 
 <br>
 
@@ -87,6 +84,10 @@ With Power Automate we can make a scheduled flow to do a GET API request, which 
 <br>
 
 <img src="images/PowerAutomateFlows.png" width="50%">
+
+<br>
+
+<img src="images/PowerAutomate.png" width="75%">
 
 <br>
 
