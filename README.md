@@ -97,7 +97,7 @@ EARTHQUAKE-AI is a custom asynchronous server that runs continually in the cloud
 
 The server tech stack includes Python, FastAPI, and Railway with nixpacks, an abstraction layer above Docker for seamlessly deploying various development environments, essentially taking care of dependency management. The system could be easily expanded for scientific analysis using various libraries and frameworks such as Anaconda and OpenCV, with nixpacks taking care of consistent and reproducible environment deployment details.
 
-The key to integrating the LLM with the data is to construct a prompt request requiring that any data output should come back in the form of JSON, which is what we can use for downstream processing.
+In terms of AI analysis, the key to integrating the LLM with the data is to construct a prompt request requiring that any data output should come back in the form of JSON, which is what we can use for downstream processing.
 
 <br>
 
