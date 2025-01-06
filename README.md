@@ -95,7 +95,7 @@ With Power Automate we can make a scheduled flow to perform a GET API request, w
 
 EARTHQUAKE-AI is a custom asynchronous server that runs continually in the cloud. The app obtaines API data from various sources, processes and formats the data for easier downstreaming processing through Microsoft Power Automate that can then leverage the Microsoft ecosystem. The earthquake API is obtained through USGS (https://earthquake.usgs.gov/fdsnws/event/1/), while the LLM API is from Anthropic (Claude Haiku).
 
-The server tech stack includes Python, FastAPI, and Railway with nixpacks, an abstraction layer above Docker for seamlessly deploying various development environments, essentially taking care of dependency management. The system could be easily expanded for scientific analysis using various libraries and frameworks such as Anaconda and OpenCV, while nixpacks would take care of the environment deployment details.
+The server tech stack includes Python, FastAPI, and Railway with nixpacks, an abstraction layer above Docker for seamlessly deploying various development environments, essentially taking care of dependency management. The system could be easily expanded for scientific analysis using various libraries and frameworks such as Anaconda and OpenCV, with nixpacks taking care of dependable environment deployment details.
 
 The key to integrating the LLM with the data is to construct a prompt request requiring that any data output should come back in the form of JSON, which is what we can use for downstream processing.
 
