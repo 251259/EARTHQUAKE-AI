@@ -79,7 +79,7 @@ The Microsoft Power Automate platform is the engine behind automating workflows 
 
 <br>
 
-With Power Automate we can make a scheduled flow to do a GET API request, which repeats per any time interval for real time updates. To make the flow, we start with a Recurrence node, which represents the scheduled flow entry, followed by an HTTP and Parse JSON node to convert the web data, and then we iterate with a new row node to write the data to the Dataverse table.
+With Power Automate we can make a scheduled flow to perform a GET API request, which repeats per any time interval for real time updates. To make the flow, we start with a Recurrence node, which represents the scheduled flow entry, followed by an HTTP and Parse JSON node to convert the web data, and then we iterate with a new row node to write the data to the Dataverse table.
 
 <br>
 
